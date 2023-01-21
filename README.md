@@ -28,7 +28,7 @@ List of scripts:
 
 2. PARE_annotate_filter.pl: Reads output file of bedtools intersect that includes genomic and cDNA coordinates of 5'P sites. Output includes coordinates and sequence of the region flanking the 5'P sites from Bedtools.  
 
-3. comPARE_v3.pl: 5'P site coordinates and corresponding sequences are annotated with transcript and genes names, Cap PARE (mRNA decapping) sites (Nagarajan et al., 2019),  transcript abundances (RNA-seq) results, and datasets from multiple studies (e.g. NMD mutants). The output dataset is presented in Supplemental Data Set S1 (Seedling) and S3 (Leaf).  
+3. comPARE_datasets_v3.pl: 5'P site coordinates and corresponding sequences are annotated with transcript and genes names, Cap PARE (mRNA decapping) sites (Nagarajan et al., 2019),  transcript abundances (RNA-seq) results, and datasets from multiple studies (e.g. NMD mutants). The output dataset is presented in Supplemental Data Set S1 (Seedling) and S3 (Leaf).  
 
 4. metagene_v1.pl. Metagene analysis to identify the positional information of DNE1-dependent 5'P sites across the transcript based on TAIR10 transcript annotations. Output was used in Figure 3B in the manuscript 
 
