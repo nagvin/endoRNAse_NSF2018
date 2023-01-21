@@ -7,7 +7,8 @@ Pre-processing steps:
 
 2. Trim adapter, crop to 50 nt (GMUCT) and 20 nt (PARE) and remove low quality reads with Trimmomatic 
 
-Overview of ComPARE computational pipeline followed by Hurtig et al., 2021 (PNAS) – deviations are shown with an asterisk(*) 
+Overview of the ComPARE computational pipeline followed by Hurtig et al., 2021 (PNAS) – deviations are shown with an asterisk(*) 
+
 Data analysis steps:
 1. Align reads to TAIR10 genome (v49) using Tophat v2.0 
 
@@ -17,7 +18,7 @@ Data analysis steps:
 
 4. Assign gene and transcript attributes to 5’P sites from GFF files (Bedtools intersect)*
 
-5. Calculate log2 fold changes between 5’P site CPM values from Col0, xrn4 and mfl1xrn4 
+5. Calculate log2 fold changes between 5’P site CPM values from Col-0, xrn4 and dne1xrn4 (or dbl)
 
 6. Extract 20 nt sequences flanking 5’P site (Bedtools getfasta)*
 
