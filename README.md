@@ -1,11 +1,11 @@
 # endoRNAse_NSF2018
 Scripts used in the RNA degradome analysis to identify 5'P sites that are dependent on Arabidopsis DNE1 endoRNase
 
-Publication:
-Nagarajan et al.,
-RNA degradome analysis reveals DNE1 endoribonuclease is required for the turnover of diverse mRNA substrates in Arabidopsis
+**Publication:**
+_Nagarajan et al.,_
+_RNA degradome analysis reveals DNE1 endoribonuclease is required for the turnover of diverse mRNA substrates in Arabidopsis.
 Plant Cell 2023 May 29;35(6):1936-1955. doi: 10.1093/plcell/koad085.
-
+_
 
 Analysis details:
 ---------------------
